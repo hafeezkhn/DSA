@@ -1,0 +1,14 @@
+TEST(     test_suite_name     ,      test_case_name       )
+      collection of testcases , what your doing in testcase 
+________________________
+TDD cycle - philosophy
+1-write test      -red
+2-get it pass     -green
+3-clean up design -grey
+________________________
+--------------------------------------------
+cmake CMakeLists.txt
+make
+./runTests
+--------------------------------------------
+

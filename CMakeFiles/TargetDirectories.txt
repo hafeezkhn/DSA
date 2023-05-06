@@ -1,0 +1,3 @@
+/home/vm/DSA/CMakeFiles/runTests.dir
+/home/vm/DSA/CMakeFiles/edit_cache.dir
+/home/vm/DSA/CMakeFiles/rebuild_cache.dir
