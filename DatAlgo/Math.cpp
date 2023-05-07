@@ -1,6 +1,7 @@
 class Math{
 public:
-	int add(int a, int b){
+	template<typename T>
+	T add(T a, T b){
 		return a+b;
 	}
 
