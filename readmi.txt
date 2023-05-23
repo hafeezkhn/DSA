@@ -11,4 +11,9 @@ cmake CMakeLists.txt
 make
 ./runTests
 --------------------------------------------
-
+for coverage lcov
+mkdir build ;cd build;cmake ..
+./runTests
+lcov -c -d .. -o my.info
+genhtml -o results/ my.info
+==============================

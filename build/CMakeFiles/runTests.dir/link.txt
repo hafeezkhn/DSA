@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -Wall -fprofile-arcs -ftest-coverage --coverage CMakeFiles/runTests.dir/main.cpp.o -o runTests  lib/libgtest_main.a lib/libgtest.a 

@@ -3,5 +3,4 @@ cd googletest
 mkdir build && cd build
 cmake .. -DBUILD_SHARED_LIBS=ON -DINSTALL_GTEST=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr
 make -j8
-sudo make install
-sudo ldconfig
+
