@@ -1,11 +1,11 @@
 TEST(     test_suite_name     ,      test_case_name       )
       collection of testcases , what your doing in testcase 
-________________________
+____________________________________________
 TDD cycle - philosophy
 1-write test      -red
 2-get it pass     -green
 3-clean up design -grey
-________________________
+____________________________________________
 --------------------------------------------
 cmake CMakeLists.txt
 make
@@ -16,4 +16,4 @@ mkdir build ;cd build;cmake ..
 ./runTests
 lcov -c -d .. -o my.info
 genhtml -o results/ my.info
-==============================
+============================================
