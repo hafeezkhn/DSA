@@ -7,7 +7,7 @@ TDD cycle - philosophy
 3-clean up design -grey
 ____________________________________________
 --------------------------------------------
-cmake CMakeLists.txt
+mkdir build ;cd build;cmake ..
 make
 ./runTests
 --------------------------------------------
