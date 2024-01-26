@@ -13,6 +13,7 @@ make
 --------------------------------------------
 for coverage lcov
 mkdir build ;cd build;cmake ..
+make
 ./runTests
 lcov -c -d .. -o my.info
 genhtml -o results/ my.info
