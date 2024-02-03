@@ -7,7 +7,7 @@ if [ $? -eq 0 ]
 then
 	echo "generating gcovr reports...\n"
 	sleep 5
-	python -m gcovr -g -r ..  --html-nested coverage.html
+	python3.8 -m gcovr -g -r ..  --html-nested coverage.html
 	mkdir Results||rm -rf Results && mv cover* ./Results
 	firefox Results/coverage.html
 else
