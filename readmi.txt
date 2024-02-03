@@ -18,3 +18,10 @@ make
 lcov -c -d .. -o my.info
 genhtml -o results/ my.info
 ============================================
+--------------------------------------------
+(optional)
+installing dependencies for ./runcoverage.sh
+-> sudo apt install python3.8*
+-> sudo python3.8 get-pip.py
+-> sudo python3.8 -m pip install gcovr
+--------------------------------------------
